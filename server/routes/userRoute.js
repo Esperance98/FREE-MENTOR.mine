@@ -15,7 +15,7 @@ DataChecker.checkAge,
 UserController.signupUser)
 
 // login router
-router.post("/signIn", 
-UserController.signInUser)
+router.post("/signIn", UserController.signInUser)
+router.get("/allusers", UserController.getAllUsers)
 
 export default router;
